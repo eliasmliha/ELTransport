@@ -1,0 +1,26 @@
+.containre1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    justify-items: stretch;
+    grid-template-areas: 
+    "header header  header"
+    "main   main    main"
+    "section1   section1    section2"
+    "section3   section3    section3"   
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+.section1{
+    grid-area: section1;
+}
+.section2{
+    grid-area: section2;
+}
+.section3{
+    grid-area: section3;
+}
